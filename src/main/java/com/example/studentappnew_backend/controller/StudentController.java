@@ -10,6 +10,15 @@ public class StudentController {
         return "Welcome to my website";
     }
 
+    @GetMapping("/contact")
+    public String contactpage(){
+        return "welcome to contactpage";
+    }
+    @GetMapping("/Gallery")
+    public String gallerypage(){
+        return "Welcome to gallery";
+    }
+
 
 
 
